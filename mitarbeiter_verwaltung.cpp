@@ -102,7 +102,7 @@ public:
 	}
 
 
-	//Überprüfung auf leere Objekte (Falls ein Mitarbeiter geloescht wurde)
+	//ÃœberprÃ¼fung auf leere Objekte (Falls ein Mitarbeiter geloescht wurde)
 	bool mitarbeiternummer_checking() {
 		if (!Nachname.empty() && !Vorname.empty() && !Geburtsdatum.empty()) {
 			return 1;
@@ -152,7 +152,7 @@ int mitarbeiteraufruf(BENUTZERKONTO ma[], int i, bool whole) {
 				for (a = 0; a < i; a++) {
 					ma[a].anzeige_daten_ma(a, whole);
 				}
-			//Rueckgabewert, damit nur bei vorhandenen Mitarbeitern, die aufrufende Funktion weiter ausgeführt wird
+			//Rueckgabewert, damit nur bei vorhandenen Mitarbeitern, die aufrufende Funktion weiter ausgefï¿½hrt wird
 			return 1;
 			break;
 		}
@@ -245,7 +245,7 @@ int main() {
 						break;
 					}
 
-					//Fall 2: Alle Objekte sind befüllt
+					//Fall 2: Alle Objekte sind befï¿½llt
 					if (i == 499 && Mitarbeiternummer != i) {
 						cout << "\n\nSpeicher voll!\nEs koennen keine Mitarbeiter mehr angelegt werden!\n";
 						exit_weil_Ueberfuellt = true;
