@@ -1,6 +1,6 @@
 # Mitarbeiterverwaltung CLI
 
-Ein einfaches Programm zur Verwaltung von Mitarbeitern über die Kommandozeile (CLI). Das Projekt wurde im Rahmen des VHB-Kurses **C++ 1** erstellt. Das Programm ist ausschließlich unter Windows lauffähig.
+Ein einfaches Programm zur Verwaltung von Mitarbeitern über die Kommandozeile (CLI). Das Projekt wurde im Rahmen des VHB-Kurses **C++** erstellt. Das Programm ist ausschließlich unter Windows lauffähig.
 
 ## 📋 Funktionen
 
